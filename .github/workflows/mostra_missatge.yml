@@ -13,3 +13,7 @@ jobs:
         run: echo "La meva primera GitHub Action a DAW-M8"
       - name: Mostra fitxers
         run: ls -la
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Torna a mostrar fitxers deprès del checkout
+        run: la -la
