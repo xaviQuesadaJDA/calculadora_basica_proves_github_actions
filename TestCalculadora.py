@@ -6,4 +6,4 @@ class TestCalculadora():
     
     def test_suma(self):
         calcu = calculadora.Calculadora()
-        assert (calcu.suma(8, 7) == 15)
+        assert (calcu.suma(8, 7) == 150)
