@@ -1,0 +1,13 @@
+name: Proves de CI a GitHub
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  una_tasca_automatica:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mostra un missatge per consola
+        run: echo "La meva primera GitHub Action a DAW-M8"
