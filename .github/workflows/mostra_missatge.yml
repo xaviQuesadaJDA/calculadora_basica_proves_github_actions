@@ -18,4 +18,4 @@ jobs:
       - name: Torna a mostrar fitxers deprès del checkout
         run: ls -la
       - name: Executar doctest
-        run: python3 -m doctest calculadora.py
+        run: python3 -m pytest ./TestCalculadora.py

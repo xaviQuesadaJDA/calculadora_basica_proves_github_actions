@@ -6,21 +6,15 @@ Calculadora basica
 
 __author__ = "Xavi"
 
-    
-def suma(a, b):
-    """
-    >>> suma(3, 5)
-    8
-    >>> suma(0, 0)
-    0
-    """
-    return a+b
+class Calculadora():
+    def suma(self, a, b):
+        return a+b
 
-def resta(a, b):
-    return a-b
+    def resta(self, a, b):
+        return a-b
 
-def multiplica(a, b):
-    return a*b
+    def multiplica(self, a, b):
+        return a*b
 
-def divisio(a, b):
-    return a/b
+    def divisio(self, a, b):
+        return a/b
