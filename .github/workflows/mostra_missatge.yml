@@ -16,4 +16,4 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Torna a mostrar fitxers deprès del checkout
-        run: la -la
+        run: ls -la
