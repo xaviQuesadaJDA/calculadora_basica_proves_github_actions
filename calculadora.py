@@ -12,7 +12,7 @@ def suma(a, b):
     >>> suma(3, 5)
     8
     >>> suma(0, 0)
-    0
+    10
     """
     return a+b
 
