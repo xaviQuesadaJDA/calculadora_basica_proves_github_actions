@@ -17,3 +17,5 @@ jobs:
         uses: actions/checkout@v4
       - name: Torna a mostrar fitxers deprès del checkout
         run: ls -la
+      - name: Executar doctest
+        run: python3 -m doctest calculadora.py
