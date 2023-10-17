@@ -1,7 +1,7 @@
 import pytest
 import calculadora
 
-class TestCalculadora():
+class Test_Calculadora():
 
     
     def test_suma(self):
